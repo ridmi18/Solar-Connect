@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Prisma local database
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
